@@ -67,7 +67,7 @@ export const pages = {
                     modalPopupText: "A program which allows you to play back the live input of an " +
                         "audio device. Useful for listening to Line-in devices, or to " +
                         "hear sidetone for your microphone.",
-                    modalLink: "https://github.com/EmmaKarlholm/DeviceListener"
+                    modalLink: "https://github.com/KiddN7/DeviceListener"
                 },
                 {
                     type: "image",
@@ -90,7 +90,7 @@ export const pages = {
                     type: "modal",
                     label: "Emonic",
                     modalPopupText: "A collection of mneumonic C# classes for .NET development.",
-                    modalLink: "https://github.com/EmmaKarlholm/Emonic"
+                    modalLink: "https://github.com/KiddN7/Emonic"
                 },
                 {
                     type: "image",
@@ -101,7 +101,7 @@ export const pages = {
                     type: "modal",
                     label: "Emonindowlocker",
                     modalPopupText: "DisplayFusion C# scripts to disable accidental resizing of windows.",
-                    modalLink: "https://github.com/EmmaKarlholm/Emonindowlocker"
+                    modalLink: "https://github.com/KiddN7/Emonindowlocker"
                 },
                 {
                     type: "image",
@@ -112,7 +112,7 @@ export const pages = {
                     type: "modal",
                     label: "DelVault",
                     modalPopupText: "A role-playing game played in the terminal.",
-                    modalLink: "https://github.com/EmmaKarlholm/DelVault"
+                    modalLink: "https://github.com/KiddN7/DelVault"
                 }
             ]
         }
@@ -173,7 +173,7 @@ export const pages = {
                     label: "Device Listener",
                     modalPopupText: "Ett program som låter dig spela upp live-input från en ljudenhet. " +
                         "Användbart för att lyssna på Line-in-enheter eller höra sidetone från din mikrofon.",
-                    modalLink: "https://github.com/EmmaKarlholm/DeviceListener"
+                    modalLink: "https://github.com/KiddN7/DeviceListener"
                 },
                 {
                     type: "image",
@@ -196,7 +196,7 @@ export const pages = {
                     type: "modal",
                     label: "Emonic",
                     modalPopupText: "En samling hjälpklasser i C# för .NET-utveckling.",
-                    modalLink: "https://github.com/EmmaKarlholm/Emonic"
+                    modalLink: "https://github.com/KiddN7/Emonic"
                 },
                 {
                     type: "image",
@@ -207,7 +207,7 @@ export const pages = {
                     type: "modal",
                     label: "Emonindowlocker",
                     modalPopupText: "DisplayFusion-skript i C# för att förhindra oavsiktlig storleksändring av fönster.",
-                    modalLink: "https://github.com/EmmaKarlholm/Emonindowlocker"
+                    modalLink: "https://github.com/KiddN7/Emonindowlocker"
                 },
                 {
                     type: "image",
@@ -218,7 +218,7 @@ export const pages = {
                     type: "modal",
                     label: "DelVault",
                     modalPopupText: "Ett rollspel som spelas direkt i terminalen.",
-                    modalLink: "https://github.com/EmmaKarlholm/DelVault"
+                    modalLink: "https://github.com/KiddN7/DelVault"
                 }
             ]
         }
