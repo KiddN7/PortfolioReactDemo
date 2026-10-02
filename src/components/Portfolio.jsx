@@ -5,13 +5,13 @@ export default function Portfolio({ pageData, renderEntry }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/EmmaKarlholm/repos?sort=pushed")
+    fetch("https://api.github.com/users/KiddN7/repos?sort=pushed")
       .then(response => response.json())
       .then(data => {
-        const noSchoolAssignments = data.filter(repo => 
+        const noSchoolAssignments = data.filter(repo =>
           !repo.topics?.includes("school-assignment")
         );
-        const filteredData = noSchoolAssignments.filter(repo => 
+        const filteredData = noSchoolAssignments.filter(repo =>
           repo.name !== repo.owner.login
         );
         setRepos(filteredData);
@@ -30,7 +30,7 @@ export default function Portfolio({ pageData, renderEntry }) {
             id="top-title">
             {pageData.title}
         </h1>
-        
+
         <div
             id="content"
             className="portfolio-layout">
