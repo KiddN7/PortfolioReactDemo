@@ -437,7 +437,8 @@ footer p {
   }
 
   #nav {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     text-align: center;
   }
 
@@ -447,10 +448,6 @@ footer p {
     padding: 0.4rem;
     align-items: center;
     white-space: nowrap;
-  }
-
-  #nav li {
-    height: 2.25rem;
   }
 
   #toggle-language {
@@ -477,6 +474,9 @@ footer p {
     text-align: center;
   }
 
+  #nav li:last-child {
+    flex-basis: 100%;
+  }
   .portfolio-layout {
     gap: 1rem;
   }
