@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function useRainKeystrokes(onTrigger) {
-  const [userInput, setUserInput] = useState("");
+  const [, setUserInput] = useState("");
 
   useEffect(() => {
     const handleKey = (pressed) => {

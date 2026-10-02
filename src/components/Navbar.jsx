@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export default function Navbar({ language, setPage, page, toggleLanguage }) {
+export default function Navbar({ language, toggleLanguage }) {
   const navbarText = {
     en: { home: "Home", about: "About me", cv: "CV", portfolio: "Portfolio" },
     sv: { home: "Hem", about: "Om mig", cv: "CV", portfolio: "Portfölj" }
