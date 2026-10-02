@@ -3,19 +3,21 @@ export default function Modal({ modal, closeModal }) {
 
   return (
     <div className="modal" onClick={closeModal}>
-      <div
-        className="modal-content"
-        onClick={e => e.stopPropagation()}
-      >
-        <span
-          className="modal-close-button"
-          onClick={closeModal}
-        >
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <span className="modal-close-button" onClick={closeModal}>
           ×
         </span>
-        
+
         <p>{modal.text}</p>
-        
+
+        {modal.videoId && (
+          <iframe
+            className="modal-video"
+            src={`https://www.youtube.com/embed/${modal.videoId}`}
+            title="Presentation"
+            allowFullScreen
+          />
+        )}
         {modal.link && (
           <a href={modal.link} target="_blank">
             Link
