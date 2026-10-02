@@ -253,5 +253,126 @@ export const pages = {
                 }
             ]
         }
+    },
+
+
+
+
+    /* Japanese / 日本語 */
+    jp: {
+        home: {
+            title: "ようこそ",
+            content: [
+                {
+                    type: "image",
+                    src: ImageCode,
+                    alt: "HTML内にSVGを含むソースコード"
+                },
+                {
+                    type: "paragraph",
+                    text: "エマの隠れ家へようこそ！どうぞごゆっくりご覧ください。"
+                }
+            ]
+        },
+
+        about: {
+            title: "自己紹介",
+            content: [
+                {
+                    type: "subheader",
+                    text: "エマです"
+                },
+                {
+                    type: "image",
+                    src: "https://avatars.githubusercontent.com/u/230901568?v=4",
+                    alt: "AIで生成した私の画像"
+                },
+                {
+                    type: "paragraph",
+                    text: "人との出会いにも新しい挑戦にも前向きで、喜びと楽観をもって未来に向き合っています。" +
+                        "周囲からは、柔軟でポジティブ、そしてオープンな性格だと言われます。" +
+                        "幅広い基礎を土台にIT業界にしっかりと根を下ろしており、自分の専門性を活かしながら" +
+                        "スキルを磨き、人々の日常をより良くできる仕事を探しています。"
+                }
+            ]
+        },
+
+        portfolio: {
+            title: "ポートフォリオ",
+            content: [
+                {
+                    type: "image",
+                    src: ImageAccessify,
+                    alt: "緑色のカエルの画像"
+                },
+                {
+                    type: "modal",
+                    label: "Accessify",
+                    modalPopupText: "Accessify AIは、.NETサービス、Next.jsフロントエンド、.NET Aspireによる" +
+                        "オーケストレーションで構築された、ウェブアクセシビリティ診断プラットフォームです。" +
+                        "サイトをクロールしてブラウザベースのアクセシビリティチェックを実行し、スキャンの進捗を" +
+                        "リアルタイムで配信するほか、レビューと修正のワークフローにも対応しています。",
+                    modalLink: "https://github.com/KiddN7/Accessify",
+                    modalVideoId: "oKyWKzdLgIo"
+                },
+                {
+                    type: "image",
+                    src: ImageDeviceListener,
+                    alt: "緑色のスピーカーの画像"
+                },
+                {
+                    type: "modal",
+                    label: "Device Listener",
+                    modalPopupText: "オーディオデバイスのライブ入力をそのまま再生できるプログラムです。" +
+                        "ライン入力機器の音を聴いたり、マイクのサイドトーンを確認したりするのに便利です。",
+                    modalLink: "https://github.com/KiddN7/DeviceListener"
+                },
+                {
+                    type: "image",
+                    src: ImageMunilytics,
+                    alt: "ストックホルムの写真"
+                },
+                {
+                    type: "modal",
+                    label: "Munilytics",
+                    modalPopupText: "地方政治家が自治体間のKPIデータを取得・分析・比較できる" +
+                        "分析プラットフォームです。",
+                    modalLink: "https://github.com/SunberryBlossom/Munilytics/"
+                },
+                {
+                    type: "image",
+                    src: ImageCode,
+                    alt: "HTML内にSVGを含むソースコード"
+                },
+                {
+                    type: "modal",
+                    label: "Emonic",
+                    modalPopupText: ".NET開発のための、覚えやすいC#クラス集です。",
+                    modalLink: "https://github.com/KiddN7/Emonic"
+                },
+                {
+                    type: "image",
+                    src: ImageEmonindowlocker,
+                    alt: "DisplayFusionというソフトのロゴ"
+                },
+                {
+                    type: "modal",
+                    label: "Emonindowlocker",
+                    modalPopupText: "ウィンドウの意図しないサイズ変更を防ぐ、DisplayFusion用のC#スクリプトです。",
+                    modalLink: "https://github.com/KiddN7/Emonindowlocker"
+                },
+                {
+                    type: "image",
+                    src: ImageDelVault,
+                    alt: "アスキーアートで「DelVault」と書かれたタイトル画面"
+                },
+                {
+                    type: "modal",
+                    label: "DelVault",
+                    modalPopupText: "ターミナルで遊ぶロールプレイングゲームです。",
+                    modalLink: "https://github.com/KiddN7/DelVault"
+                }
+            ]
+        }
     }
 }

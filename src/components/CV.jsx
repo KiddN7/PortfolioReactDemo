@@ -16,6 +16,13 @@ export default function CV({language}) {
       education: "Utbildning",
       other: "Övriga meriter",
       languages: "Språk"
+    },
+    jp: {
+      title: "CV",
+      work: "職歴",
+      education: "学歴",
+      other: "その他の実績",
+      languages: "語学"
     }
   };
 

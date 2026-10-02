@@ -128,6 +128,7 @@ html {
 #nav button#toggle-language:hover {
   background-color: var(--bright);
   color: var(--dark);
+  line-height: 1;
 }
 
 body {
@@ -256,6 +257,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 1;
 }
 
 .portfolio-layout {
@@ -444,11 +446,17 @@ footer p {
     font-size: 0.9rem;
     padding: 0.4rem;
     align-items: center;
+    white-space: nowrap;
+  }
+
+  #nav li {
+    height: 2.25rem;
   }
 
   #toggle-language {
     width: auto;
     flex: 0 0 auto;
+    line-height: 1;
   }
 }
 

@@ -3,7 +3,8 @@ import { NavLink } from "react-router-dom";
 export default function Navbar({ language, toggleLanguage }) {
   const navbarText = {
     en: { home: "Home", about: "About me", cv: "CV", portfolio: "Portfolio" },
-    sv: { home: "Hem", about: "Om mig", cv: "CV", portfolio: "Portfölj" }
+    sv: { home: "Hem", about: "Om mig", cv: "CV", portfolio: "Portfölj" },
+    jp: { home: "ホーム", about: "自己紹介", cv: "CV", portfolio: "ポートフォリオ" }
   };
 
   let buttonText = ""
@@ -13,8 +14,11 @@ export default function Navbar({ language, toggleLanguage }) {
       break
 
     case "sv":
-      buttonText = "In English"
+      buttonText = "日本語で"
       break
+
+    case "jp":
+      buttonText = "In English"
   }
 
   return (

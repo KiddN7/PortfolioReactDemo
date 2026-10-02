@@ -25,13 +25,15 @@ export default function useLanguage() {
         case "en":
           return "sv";
         case "sv":
+          return "jp";
+        case "jp":
           return "en";
         default:
           return current;
       }
     });
   };
-  
+
   return {
     language,
     websiteName,
