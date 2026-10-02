@@ -123,7 +123,7 @@ export default function App() {
             Follow the white...?
           </button>
 
-          <p>Copyright © 2026 Emma Karlholm</p>
+          <p>Copyright © 2026 KiddN7</p>
 
           {rainActive && (
             <button
