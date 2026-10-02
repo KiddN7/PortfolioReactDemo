@@ -2,6 +2,7 @@
  *  -= Preload of Images =-
  *                              */
 
+import ImageAccessify from "../assets/Accessify.gif"
 import ImageCode from "../assets/code.avif"
 import ImageDelVault from "../assets/DelVault.png"
 import ImageDeviceListener from "../assets/DeviceListener.png"
@@ -9,7 +10,7 @@ import ImageEmonindowlocker from "../assets/EmonindowLocker.png"
 import ImageMunilytics from "../assets/Munilytics.jpg"
 
 /*
- *  -= Page Contents =- 
+ *  -= Page Contents =-
  *                              */
 
 export const pages = {
@@ -56,6 +57,21 @@ export const pages = {
         portfolio: {
             title: "Portfolio",
             content: [
+                {
+                    type: "image",
+                    src: ImageAccessify,
+                    alt: "An image of a green frog"
+                },
+                {
+                    type: "modal",
+                    label: "Accessify",
+                    modalPopupText: "Accessify AI is a web accessibility scanning platform built with " +
+                        ".NET services, a Next.js frontend, and .NET Aspire orchestration. " +
+                        "It crawls sites, runs browser-based accessibility checks, streams scan " +
+                        "progress in real time, and supports review and remediation workflows.",
+                    modalLink: "https://github.com/KiddN7/Accessify",
+                    modalVideoId: "oKyWKzdLgIo"
+                },
                 {
                     type: "image",
                     src: ImageDeviceListener,
@@ -163,6 +179,21 @@ export const pages = {
         portfolio: {
             title: "Portfölj",
             content: [
+                {
+                    type: "image",
+                    src: ImageAccessify,
+                    alt: "En bild av en grön groda"
+                },
+                {
+                    type: "modal",
+                    label: "Accessify",
+                    modalPopupText: "Accessify AI är en plattform för skanning av webbtillgänglighet som är uppbyggd med " +
+                        ".NET-tjänster, ett Next.js-frontend och .NET Aspire-orkestrering. " +
+                        "Den genomsöker webbplatser, utför webbläsarbaserade tillgänglighetskontroller, visar skanningsförloppet " +
+                        "i realtid och stöder arbetsflöden för granskning och åtgärdande.",
+                    modalLink: "https://github.com/KiddN7/Accessify",
+                    modalVideoId: "oKyWKzdLgIo"
+                },
                 {
                     type: "image",
                     src: ImageDeviceListener,
